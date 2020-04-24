@@ -2,8 +2,7 @@ n=int(input("Enter the total number of socks"))
 l=[]
 for i in range(n):
     x=input()
-    l.append(x)
-#print(l)   
+    l.append(x)  
 c=0
 c1=0 
 for i in range(n):
