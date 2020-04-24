@@ -30,3 +30,8 @@ Sample Output
 AB
 CA
 AD
+Explanation
+
+String  is split into  equal parts of length . We convert each  to  by removing any subsequent occurrences non-distinct characters in :
+
+We then print each  on a new line.
