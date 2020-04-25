@@ -5,7 +5,6 @@ if __name__ == '__main__':
     f2=0
     f3=0
     f4=0
-    f5=0
     for i in range(0,len(s)):
         if(s[i].isalnum()==True):
             f=1
@@ -17,8 +16,6 @@ if __name__ == '__main__':
             f3=1
         if(s[i].isupper()==True):
             f4=1
-        else:
-            f5=0
     if (f==1):
         print("True")
     if (f==0):
