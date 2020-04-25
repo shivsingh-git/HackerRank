@@ -46,7 +46,6 @@ A single line containing a string .
 
 Constraints
 
-
 Output Format
 
 In the first line, print True if  has any alphanumeric characters. Otherwise, print False.
