@@ -44,8 +44,6 @@ Input Format
 
 A single line containing a string .
 
-Constraints
-
 Output Format
 
 In the first line, print True if  has any alphanumeric characters. Otherwise, print False.
@@ -55,10 +53,9 @@ In the fourth line, print True if  has any lowercase characters. Otherwise, prin
 In the fifth line, print True if  has any uppercase characters. Otherwise, print False.
 
 Sample Input
-
 qA2
-Sample Output
 
+Sample Output
 True
 True
 True
