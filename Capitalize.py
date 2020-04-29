@@ -3,9 +3,9 @@ import os
 import random
 import re
 import sys
-def solve(s):
-  for x in s[:].split():
-     s = s.replace(x, x.capitalize())
+def solve(s):                         #definig a function
+  for x in s[:].split():              #checking in the string after splitting it just after the spaces
+     s = s.replace(x, x.capitalize()) #if the split is found then replacing that x with a capitalize x
   print(s)
     
 if __name__ == '__main__':
