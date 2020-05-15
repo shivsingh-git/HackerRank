@@ -10,19 +10,17 @@ class Student{
     public:
     void input(){
         for(int i=0; i<5; i++){
-            cin >> scores[i];
+            cin >> scores[i];               //getting the value inside the arrays
         }
     }
     int calculateTotalScore(){
         int total = 0;
-        for(int i=0; i<5; i++){
+        for(int i=0; i<5; i++){             //calculate the total marks
             total += scores[i];
         }
-        return total;
+        return total;                       //returning the value of the total marks
     }
 };
-// Write your Student class here
-
 int main() {
     int n; // number of students
     cin >> n;
@@ -31,10 +29,8 @@ int main() {
     for(int i = 0; i < n; i++){
         s[i].input();
     }
-
     // calculate kristen's score
     int kristen_score = s[0].calculateTotalScore();
-
     // determine how many students scored higher than kristen
     int count = 0; 
     for(int i = 1; i < n; i++){
@@ -43,9 +39,6 @@ int main() {
             count++;
         }
     }
-
-    // print result
     cout << count;
-    
     return 0;
 }
