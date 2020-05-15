@@ -41,34 +41,24 @@ public:
         }
     string get_last_name() {
         return last_name;
-        }
-    
+        }   
     string to_string()
     {
         stringstream ss;
         char c = ',';
         ss << age << c << first_name << c << last_name << c << standard;
         return ss.str();
-    }
-    
+    }   
 };
-/*
-Enter code for class Student here.
-Read statement for specification.
-*/
-
 int main() {
     int age, standard;
-    string first_name, last_name;
-    
-    cin >> age >> first_name >> last_name >> standard;
-    
+    string first_name, last_name;    
+    cin >> age >> first_name >> last_name >> standard;    
     Student st;
     st.set_age(age);
     st.set_standard(standard);
     st.set_first_name(first_name);
     st.set_last_name(last_name);
-    
     cout << st.get_age() << "\n";
     cout << st.get_last_name() << ", " << st.get_first_name() << "\n";
     cout << st.get_standard() << "\n";
