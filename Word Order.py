@@ -1,4 +1,4 @@
-from collections import OrderedDict
+from collections import OrderedDict.                #importing ordered dictionary
 words = OrderedDict()
 
 for _ in range(int(input())):           
