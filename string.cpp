@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 int main() {
     string s1,s2;
 	cin>>s1>>s2;
@@ -15,6 +14,5 @@ int main() {
     s1[0]=c2;
     s2[0]=c1;
     cout<<s1<<" "<<s2;
-  
     return 0;
 }
