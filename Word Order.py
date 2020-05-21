@@ -6,5 +6,5 @@ for _ in range(int(input())):
     words.setdefault(word, 0)                       #making the value for the word as 0
     words[word] += 1                                #increasing the word count
    
-print(len(words))                                   #printing the lenght of the dictonary   
+print(len(words))                                   #printing the lenght of the dictionary   
 print(*words.values())                              #printing every single words by value
