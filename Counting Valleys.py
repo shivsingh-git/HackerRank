@@ -11,11 +11,11 @@ def countingValleys(n, s):
     sum=0
     count=0
     for i in s:
-        if(i=='U'):
+        if(i=='U'):                     #the entered element is U increament the sum
             sum+=1
         else:
-            sum-=1
-        if(sum==0 and i=='U'):
+            sum-=1                      #otherwise decreament it
+        if(sum==0 and i=='U'):          #if the sum is 0 and the digit is U increament the value of count
             count+=1            
     return(count)
 if __name__ == '__main__':
