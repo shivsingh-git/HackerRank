@@ -4,25 +4,32 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-class Triangle{
+class Triangle
+{
     public:
-    	void triangle(){
+    	void triangle()
+        {
      		cout<<"I am a triangle\n";
     	}
 };
-class Isosceles : public Triangle{
+class Isosceles : public Triangle
+{
     public:
-    	void isosceles(){
+    	void isosceles()
+        {
     		cout<<"I am an isosceles triangle\n";
     	}
-  		void description(){
+  		void description()
+        {
             cout<<"In an isosceles triangle two sides are equal\n";
           }
-        void triangle(){
+        void triangle()
+        {
             cout<<"I am a triangle";
         }  
 };
-int main(){
+int main()
+{
     Isosceles isc;
     isc.isosceles();
   	isc.description();
