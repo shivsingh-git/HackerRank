@@ -16,9 +16,7 @@ def hourglassSum(arr):
     return(max(l))
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
     arr = []
-
     for _ in range(6):
         arr.append(list(map(int, input().rstrip().split())))
     result = hourglassSum(arr)
