@@ -4,7 +4,6 @@ import os
 import random
 import re
 import sys
-
 # Complete the hourglassSum function below.
 def hourglassSum(arr):
     s=0
@@ -15,8 +14,6 @@ def hourglassSum(arr):
             l.append(s)
             s=0
     return(max(l))
-
-
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
