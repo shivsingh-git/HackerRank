@@ -4,16 +4,16 @@ import os
 import random
 import re
 import sys
-# Complte the hourglassSum function below.
+# Complete the hourglassSum function below.
 def hourglassSum(arr):
     s=0
-    l=[]
-    for i in range(0,4):
-        for j in range(0,4):
-            s=arr[i][j]+arr[i][j+1]+arr[i][j+2]+arr[i+1][j+1]+arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2]
-            l.append(s)
-            s=0
-    return(max(l))
+    l=[]                                        #initializing a list 
+    for i in range(0,4):                        #running the loop for 4 times
+        for j in range(0,4):                    #same loop running for 4 times
+            s=arr[i][j]+arr[i][j+1]+arr[i][j+2]+arr[i+1][j+1]+arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2]   #getting the required sum by adding all the required positions
+            l.append(s)                         #entering the sum for one part it into the list
+            s=0                                 #making s zero
+    return(max(l))                              #at last returning the maximum for the list
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
     arr = []
