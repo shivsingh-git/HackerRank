@@ -2,10 +2,10 @@ s=input("Enter the string: ")
 revstr=[]
 revstr=s[::-1]
 l1=[]
-#print(revstr)
+                                    #print(revstr)  Checking if the string is getting correctly reversed            
 for x in s:
     l1.append(ord(x))
-l2=[]
+l2=[]                               #list initialization
 for i in range(0,len(l1)-1):
     if(l1[i]>l1[i+1]):
         l2.append(l1[i]-l1[i+1])
