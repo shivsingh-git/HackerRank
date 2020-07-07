@@ -4,7 +4,7 @@ import os
 import random
 import re
 import sys
-# Complete the hourglassSum function below.
+                                                # Complete the hourglassSum function below.
 def hourglassSum(arr):
     s=0
     l=[]                                        #initializing a list 
