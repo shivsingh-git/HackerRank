@@ -13,7 +13,7 @@ for i in range(0,len(l1)-1):
         l2.append(l1[i+1]-l1[i])  
 #print(l1)
 #print(l2)         
-
+#reversed string is used for further processes
 lr1=[]
 for x in revstr:
     lr1.append(ord(x))
